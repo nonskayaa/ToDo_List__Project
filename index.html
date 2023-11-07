@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <title>To-Do List</title>
+  </head>
+
+  <body>
+    <main class="main-container">
+      <section class="todo-list__container">
+        <h2 class="todo-list__title todo-list__title-top">Ту-дууу</h2>
+        <h2 class="todo-list__title todo-list__title-bottom">лист</h2>
+        <form class="todo-list__form">
+          <div class="todo-list__input-container">
+            <input
+              type="text"
+              class="todo-list__input-box"
+              placeholder="добавь новую задачку, ну добавь ну..."
+            />
+            <button class="todo-list__btn" type="submit">тык</button>
+          </div>
+        </form>
+
+        <ul class="task-list">
+          <button class="todo-list__clear-btn" data-action="deleteAllDoneTask">
+            убрать выполненные задачи
+            <img
+              src="assets/img/pngwing.com.png"
+              alt="interested emoji"
+              class="todo-list__emoji"
+            />
+          </button>
+        </ul>
+      </section>
+    </main>
+  </body>
+  <script src="assets/scripts/main.js"></script>
+</html>
