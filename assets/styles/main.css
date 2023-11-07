@@ -57,7 +57,7 @@ button {
 }
 
 .todo-list__container {
-  margin-top: 100px;
+  margin: 100px 0px;
   width: 40%;
   min-width: 420px;
   min-height: 420px;
